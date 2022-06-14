@@ -1,5 +1,5 @@
 # translation4tru: Translation for the rest of us
-## Word-level translation dictionaries for free, fast, good quality translation.
+## Word-level translation for automated text analysis
 
 Automated machine translation has been improving in quality rapidly for some years, and now approaches that of professional human translation. However, for large volume translations, these methods remain costly, in terms of money, computational resources, or time. In contrast, word-level translation is both free and fast, simply mapping each word in a source language deterministically to a target language. While the resulting translations are ungainly, for many text analysis methods this is not a problem.
 
@@ -7,11 +7,12 @@ This repository makes available translation dictionaries for a number languages 
   
 A simple Jupyter notebook is supplied to translate texts from a source to a target language using one of these dictionaries, but using the notebook is not a requirement to use the dictionaries. 
   
-The accompanying paper provides more infornation about the process generating the dictionaries, along with validation tests establishing their suitability for standard text analysis purposes.
-
 Current languages included:
 - For translation into English: French, Italian, Portuguese, Spanish, Danish, Dutch, German, Finnish, Greek, Polish
 - For translation into French: Italian, Portuguese, Spanish, Dutch, English, German (these are currently created using aligned embeddings only, and are of somewhat lower quality than those for translation itno English)
+
+The accompanying paper provides more infornation about the process generating the dictionaries, their current size, and validation tests establishing their suitability for standard text analysis purposes (including comparisons to neural machine translation output).
+
   
 ## Attribution and citation
   
